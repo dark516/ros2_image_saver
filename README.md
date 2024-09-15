@@ -19,7 +19,7 @@ This is a simple ros2 node that allows you to save every frame sent to the ros t
 cd ~/ros2_ws/src
 git clone https://github.com/dark516/ros2_image_saver
 ```
-2.Build the package:
+2. Build the package:
 ```bash
 cd ~/ros2_ws
 colcon build --packages-select ros2_image_saver
