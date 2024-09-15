@@ -41,7 +41,7 @@ def main(args=None):
     cli_args = parser.parse_args()
 
     rclpy.init(args=args)
-    node = ImageSaverNode(cli_args.save_dir)
+    node = ImageSaverNode(cli_args.dir)
 
     rclpy.spin(node)
     node.destroy_node()
