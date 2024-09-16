@@ -36,3 +36,5 @@ source ~/ros2_ws/install/setup.bash
 ros2 run ros2_image_saver_pkg image_saver --dir /path/to/save/images (default: images)
 ```
 And now every frame sent to the topic will be saved to the specified directory
+
+![Photos of the node's work](images/image.png)
